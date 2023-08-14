@@ -1,0 +1,262 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: DM Sans;
+}
+.absolute{
+    position: absolute;
+    height: 150vh;
+    top: 29vh;
+    right: -1.3vw;
+    padding: 20px;
+    /* overflow-x: hidden; Note: for position sticky to work there should not be any x-overflow ,so that is why i added x-overflow to body insted of adding *{globally} */
+
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.header{
+    top: 0;
+    position: fixed;
+    display: flex;
+    color: #FFF;
+    background: #6F6AF7;
+    justify-content: space-between;
+    align-items: center;
+    width:100vw;
+    height:12vh;
+    overflow-x: hidden;
+
+
+}
+.hamburger> img{
+    margin-right: 25px;
+    height: 33px;
+}
+h1{
+    margin-left: 25px;
+    font-family: Delius Unicase;
+}
+ul{
+    list-style-type: none;
+    font-family: DM Sans;
+    font-size: larger;
+}
+.input{
+    margin-left: 0px;
+    background-color: #FFF;
+    padding: 5px;
+    display: flex;  
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 15vw;
+
+}
+input{
+  flex: 1;
+  padding: 6px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+
+}
+.input>img{
+    margin: 0px 5px;
+}
+.menuList{
+    margin-left: 8vw;
+}
+
+.menu{
+    display: flex;
+}
+li{
+    padding: 25px;
+}
+.hero1{
+    margin:22vh 18vh 9vh 15vh;
+    padding: 1vh;
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    overflow-x: hidden;
+
+}
+
+.heroImage{
+    height: auto;
+}
+.heroImage>img{
+    height: 98%; 
+}
+.heroText{
+    height: 50vh;
+    width: 48vw;
+    background: #E5D8FF;
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.heroText>p{
+    margin: 5%;
+    color: #6F7373;
+    line-height: 175%;
+    font-size: medium;
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1vh;
+    overflow-x: hidden;
+
+}
+.box1{
+    background-color: #929DFF;
+    color: white;
+    padding: 1.5%;
+    width: 12%;
+    border-radius: 10px;
+}
+.box2{
+    background-color: #734CF2;
+    color: white;
+    padding: 1.5%;
+    width: 12%;
+    border-radius: 10px;
+}
+.box3{
+    background-color: #D288FF;
+    color: white;
+    padding: 1.5%;
+    width: 12%;
+    border-radius: 10px;
+}
+.box4   {
+    background-color: #000000;
+    color: white;
+    padding: 1.5%;
+    width: 12%;
+    border-radius: 10px;
+}
+.box{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+.box> p{
+    margin: 2px;
+}
+.help>img{
+    height: 15vh;
+    position: fixed;
+    bottom: -2vh;
+    right: 3.6vw;
+}
+.lastOuter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.lastOuter{
+    margin :10px;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+
+}
+.last{
+    width: 85vw;
+    background-color: #483EFF;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.yourInfo{
+    background-color: #BCE0F6;
+    border: solid #BCE0F6;
+
+}
+.lastDivs{
+    border: solid white;
+    color: white;
+}
+.lastLeft{
+    display: flex;
+    flex-direction: column;
+}
+.lastLeft>div{
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 3vh 0vw;
+    font-size: larger;
+    width: 18vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lastRight{
+    background-color: white;
+    height: 85%;
+    width: 60vw;
+    border-radius: 10px;
+    color: #04285A;
+
+}
+.info{
+    margin-top: 8vh;
+    margin-left: 4vw;
+    font-size: larger;
+    font-weight: 600;
+}
+.data{
+    margin-top: 1.5vh;
+    margin-left: 5vw;
+    font-size: 15px;
+
+}
+.button{
+    text-align: end;
+    margin-top: 3%;
+}
+button{
+    margin: 5%;
+    color: white;
+    font-size: medium;
+    padding: 4px 14px 4px 0px;
+    text-align:right;
+    border: solid black;
+    background-color: black;
+    border-radius: 4px;
+}
+button>img{
+    width: 25%;
+}
+
+
+.social{ 
+    
+    position: sticky;
+    top: 18vh;
+    padding-top: 6%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.social>img{
+    width: 4vw;
+}
+
+  
