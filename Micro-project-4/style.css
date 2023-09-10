@@ -1,0 +1,83 @@
+body{
+    background-color: #3B4664;
+}
+.container{
+    position: fixed;
+    top: 20vh;
+    left: 33vw;
+    width: 30vw;
+    height: 50vh;
+}
+span{
+    color: white;
+    margin: 15px;
+    font-size: large;
+}
+.display{
+    color: aliceblue;
+    background-color:  #181F32;
+    ;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 5%;
+    padding: 2vh 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+.buttons{
+    background-color: #252D44;
+    padding: 4vh 2vw;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+div > button{
+    flex: 1;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+}
+button:active {
+    box-shadow: 0 1px #666363;
+    transform: translatey(2px);
+  }
+.bgBlue{
+   background-color: #3B4664; 
+   border: none;
+   color: white;
+}
+.bgWhite{
+    border:none;
+    font-weight: 700;
+}
+.bgRed{
+    border: none;
+    color: white;
+    background-color: #D13F30;
+}
+.firstRow,.secondRow,.thirdRow,.fourthRow,.lastRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.bgWhite{
+    background-color: #EAE3DB;
+    color: #252D44;
+}
+.firstRow button,.secondRow button,.thirdRow button,.fourthRow button,.lastRow button{
+    width: 20%;
+    height: 120%;
+    padding: 2%;
+    margin: 0vh 1vw;
+    border-radius: 10px;
+    font-size: large;
+    text-align: center;
+}
